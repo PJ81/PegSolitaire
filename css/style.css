@@ -1,0 +1,74 @@
+body {
+    margin-top: 10px;
+    font-size: 38px;
+    font-family: 'Fira Mono', monospace;
+    background-color: #fff;
+    color: #000;
+    text-align: center
+}
+
+button {
+    font-size: 30px;
+    width: 80px;
+    height: 50px;
+    font-weight: bold;
+}
+
+#board {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+#btns {
+    position: absolute;
+    bottom: 3vw;
+    left: 50%;
+    margin-left: -140px
+}
+
+#go {
+    color: violet;
+    font-size: 40px;
+    margin-top: 6px;
+    display: none
+}
+
+.sel,
+.peg,
+.emp,
+.inv {
+    line-height: 50px;
+    border: 2px solid #fff;
+    width: 50px;
+    height: 50px;
+    float: left;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    margin: 1px;
+    border-radius: 5px;
+    cursor: default;
+    user-select: none;
+}
+
+.peg {
+    border-color: darkgray;
+    color: #000;
+    cursor: pointer;
+}
+
+.emp {
+    border-color: gray;
+    cursor: pointer;
+}
+
+.selZ {
+    border-color: red
+}
+
+.sel {
+    color: blueviolet;
+    border-color: blueviolet;
+}
